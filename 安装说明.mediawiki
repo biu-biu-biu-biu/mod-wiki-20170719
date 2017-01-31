@@ -112,7 +112,7 @@ OK，然后我们再对这个数据库创建一个用户，用于 ss-panel 通�
 
 <img src="https://www.zhaojin97.cn/wp-content/uploads/2016/03/2c73d13118aa4264eef958fc892f9128201603250638472135.png" alt="https://www.zhaojin97.cn/wp-content/uploads/2016/03/2c73d13118aa4264eef958fc892f9128201603250638472135.png" />
 
-导入程序目录下的 glzjin_all.sql
+导入 sql 目录下的 glzjin_all.sql
 
 <img src="https://www.zhaojin97.cn/wp-content/uploads/2016/03/87196254217e6a2a1554957feaa4e5d02016032506480021897.png" alt="https://www.zhaojin97.cn/wp-content/uploads/2016/03/87196254217e6a2a1554957feaa4e5d02016032506480021897.png" />
 
