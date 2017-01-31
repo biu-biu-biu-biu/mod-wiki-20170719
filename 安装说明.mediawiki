@@ -59,7 +59,7 @@ root /home/wwwroot/ss.panel/public;
 然后就是下载程序代码。
 <pre>cd /home/wwwroot/ss.panel
 yum install git -y
-git clone https://github.com/glzjin/ss-panel-v3-mod.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
+git clone https://github.com/glzjin/ss-panel-v3-mod.git tmp -b new_master && mv tmp/.git . && rm -rf tmp && git reset --hard
 chown -R root:root *
 chmod -R 755 *
 chown -R www:www storage
@@ -143,7 +143,7 @@ Radius 配置完成，
 <pre>service radiusd start && chkconfig radiusd on
 </pre>
 12.然后让我们回到 ss-panel 的配置上来，
-
+<pre>
 cd /home/wwwroot/ss.panel
 
 php composer.phar install
@@ -151,7 +151,7 @@ php composer.phar install
 cp config/.config.php.example config/.config.php
 
 nano config/.config.php
-
+</pre>
 进行相应的配置
 
 都有中文，根据提示来就行了
