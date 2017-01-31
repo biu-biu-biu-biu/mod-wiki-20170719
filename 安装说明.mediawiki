@@ -146,6 +146,8 @@ Radius 配置完成，
 
 cd /home/wwwroot/ss.panel
 
+php composer.phar install
+
 cp config/.config.php.example config/.config.php
 
 nano config/.config.php
