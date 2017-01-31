@@ -162,7 +162,7 @@ nano config/.config.php
 14.然后就是来同步一下用户。
 <pre>php xcat syncusers
 </pre>
-15.然后 crontab -e ，添加以下五段。
+15.然后 crontab -e ，添加以下六段。
 <pre>30 22 * * * php /home/wwwroot/ss.panel/xcat sendDiaryMail
 */1 * * * * php /home/wwwroot/ss.panel/xcat synclogin
 */1 * * * * php /home/wwwroot/ss.panel/xcat syncvpn
