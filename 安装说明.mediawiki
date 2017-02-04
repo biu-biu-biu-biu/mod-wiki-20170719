@@ -61,7 +61,7 @@ root /home/wwwroot/ss.panel/public;
 yum install git -y
 git clone https://github.com/glzjin/ss-panel-v3-mod.git tmp -b new_master && mv tmp/.git . && rm -rf tmp && git reset --hard
 chown -R root:root *
-chmod -R 755 *
+chmod -R 777 *
 chown -R www:www storage
 </pre>
 修改完了之后，到网站目录下进行一些修改。
